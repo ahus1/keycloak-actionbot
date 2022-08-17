@@ -1,0 +1,48 @@
+#Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# IntelliJ
+.idea/*
+*.ipr
+*.iml
+*.iws
+!.idea/externalDependencies.xml
+!.idea/runConfigurations
+!.idea/checkstyle-idea.xml
+
+# NetBeans
+nb-configuration.xml
+
+# Visual Studio Code
+.vscode
+.factorypath
+
+# OSX
+.DS_Store
+
+# Vim
+*.swp
+*.swo
+
+# patch
+*.orig
+*.rej
+
+# Local environment
+.env
+
+# cached GitHub schema
+github-schema.graphql
+
+# node
+node_modules
