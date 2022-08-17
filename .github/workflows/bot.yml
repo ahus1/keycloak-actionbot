@@ -1,0 +1,17 @@
+name: Bot
+
+on:
+  issue_comment:
+    types:
+      - created
+
+permissions:
+  issues: write
+  actions: write
+
+jobs:
+  act:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ahus1/keycloak-actionbot@action-bot
+
