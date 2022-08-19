@@ -6,7 +6,6 @@ on:
       - created
 
 permissions:
-  issues: write
   actions: write
   pull-requests: write
 
@@ -17,4 +16,4 @@ jobs:
       - uses: ahus1/keycloak-actionbot@action-bot
         with:
           github_token: '${{ secrets.GITHUB_TOKEN }}'
-          debug: 'true'
+          debug: 'false'
