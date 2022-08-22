@@ -7,4 +7,4 @@ jobs:
   act:
     runs-on: ubuntu-latest
     steps:
-      - run: 'false'
+      - run: 'true'
