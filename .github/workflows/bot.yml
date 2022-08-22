@@ -16,4 +16,4 @@ jobs:
       - uses: ahus1/keycloak-gh-actionbot@action-bot
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          debug: 'false'
+          debug: 'true'
