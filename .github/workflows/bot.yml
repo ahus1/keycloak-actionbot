@@ -13,7 +13,7 @@ jobs:
   act:
     runs-on: ubuntu-latest
     steps:
-      - uses: keycloak/keycloak-gh-actionbot@0.1
+      - uses: keycloak/keycloak-gh-actionbot@c76e6c1ce249dac0278652c2f94f743fe5bb9bcd
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           debug: 'true'
