@@ -1,2 +1,1 @@
-# keycloak-gh-actionbot
-Custom GitHub Actions for Keycloak projects
+# This is just a test branch that always fails.
