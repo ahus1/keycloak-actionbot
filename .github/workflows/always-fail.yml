@@ -1,0 +1,10 @@
+name: Always Fail
+
+on:
+  pull_request:
+
+jobs:
+  act:
+    runs-on: ubuntu-latest
+    steps:
+      - run: 'false'
